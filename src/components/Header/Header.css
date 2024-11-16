@@ -1,0 +1,28 @@
+.Header {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3a8035;
+}
+
+.Header img {
+  width: 100px;
+}
+
+.Header nav {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.Header nav a {
+  text-decoration: none;
+  color: white;
+  transition: 0.5s;
+  font-family: Arial;
+}
+
+.Header nav a:hover {
+  color: black;
+}

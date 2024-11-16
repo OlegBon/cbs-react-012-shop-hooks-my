@@ -1,0 +1,21 @@
+.Product {
+  display: flex;
+  padding: 50px;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.Product img {
+  width: 300px;
+}
+.Product .container {
+  margin: 0 0 0 30px;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+}
+
+.btn-home {
+  display: block;
+  margin: 50px 0 0 50px;
+}
