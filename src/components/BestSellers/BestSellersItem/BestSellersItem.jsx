@@ -12,7 +12,7 @@ const BestSellersItem = ({ product }) => {
     <div className="BestSellersItem">
       <img src={product.image} alt={product.title} />
       <h2>{product.title}</h2>
-      <p>{product.price}$</p>
+      <p>{product.price} $</p>
       <button onClick={showMoreHandler}>Show more...</button>
       <button>Add to Cart</button>
     </div>

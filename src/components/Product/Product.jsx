@@ -1,6 +1,7 @@
 import "./Product.css";
 import { useEffect, useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
+import Reviews from "./Reviews/Reviews";
 
 const Product = () => {
   let [product, setProduct] = useState({});
@@ -28,7 +29,8 @@ const Product = () => {
           <h1>{product.title}</h1>
           <p>{product.description}</p>
           <h2>Category: {product.category}</h2>
-          <p>{product.price}</p>
+          <p>Price: {product.price} $</p>
+          <Reviews />
         </div>
       </div>
     </>
